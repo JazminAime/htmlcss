@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8d3e0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #9c5e92;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+p {
+  color: #6b3f66;
+  font-size: 18px;
+  padding: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.style-p {
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border: none;
+  margin: 5px 0;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+label {
+  font-family: cursive;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #9c5e92;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+header {
+  background-color: #f8d3e0;
+  color: #6b3f66;
+  padding: 50px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f5a6c1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: inline-block;
+  padding: 10px;
+}
+
+li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #f0b2d4;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: #e58bb5;
+  }
+}
