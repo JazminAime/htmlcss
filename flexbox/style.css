@@ -1,0 +1,167 @@
+/* Estilos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  background-color: lightgray;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.item {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media queries */
+@media (min-width: 600px) {
+  .container {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    background-color: lightcoral;
+  }
+}
+/* EJERCICIOS */
+.ejercicio01 {
+  flex-direction: row;
+}
+
+.ejercicio02 {
+  flex-direction: column;
+}
+
+.ejercicio03 {
+  flex-direction: column-reverse;
+}
+
+.ejercicio04 {
+  flex-direction: row-reverse;
+}
+
+.ejercicio05 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .ejercicio05 {
+    flex-direction: row;
+  }
+}
+
+.ejercicio06 {
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  .ejercicio06 {
+    flex-direction: row;
+  }
+}
+
+.ejercicio07 {
+  justify-content: center;
+}
+
+.ejercicio08 {
+  justify-content: space-around;
+}
+
+.ejercicio09 {
+  justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  .ejercicio10 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ejercicio10 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .ejercicio11 {
+    background-color: deeppink;
+  }
+}
+
+@media (max-width: 500px) {
+  .item12 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 900px) {
+  .ejercicio13 {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .item14 {
+    color: black;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .ejercicio15 {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .ejercicio16 {
+    flex-direction: column;
+    background-color: rgb(236, 241, 133);
+    font-size: 25px;
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(223, 70, 210);
+  list-style-type: none;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li {
+  padding: 5px;
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation li a:hover {
+    background-color: rgb(223, 165, 175);
+    color: black;
+    padding: 5px;
+  }
+}
